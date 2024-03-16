@@ -146,7 +146,7 @@ try:
                 run.parent.cancel()
     else:
         print("This is the first model, "
-              "thus it should be registered")
+              "thus it should be registered already")
 
 except Exception:
     traceback.print_exc(limit=None, file=None, chain=True)
